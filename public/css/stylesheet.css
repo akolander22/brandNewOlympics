@@ -36,6 +36,7 @@ p {
 .flag{
   margin-left: 20px;
   margin-top: 20px;
+  width: 1500px;
 }
 a {
   width: auto;
@@ -66,7 +67,7 @@ h4 {
   padding: 2px;
 }
 h3 {
-  margin-top: -2px;
+  margin-top: -5px;
   color: ghostwhite;
   font-size: 18px;
   background-color: crimson;
