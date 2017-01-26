@@ -1,13 +1,12 @@
 var router = require('express').Router();
-
+//judo athletes
 var judo = [ {name: 'Colton Brown', origin: 'Piscataway, NJ'},
             {name: 'Angelica Delgado', origin: 'Miami, FL'},
             {name: 'Nick Delpopolo', origin: 'Davie, FL'},
             {name: 'Kayla Harrison', origin: 'Middletown, OH'},
             {name: 'Marti Malloy', origin: 'Oak Harbor, WA' },
             {name: 'Travis Stevens', origin: 'Tacoma, WA'}];
-// console.log(randoJudo);
-
+//badminton athletes
 var badminton = [ {name: 'Phillip Chew', origin: 'Orange, CA'},
                   {name: 'Eva Lee', origin: 'Diamond Bar, CA'},
                   {name: 'Paula Lynn Obanana', origin: 'West Covina, CA'},
@@ -15,13 +14,12 @@ var badminton = [ {name: 'Phillip Chew', origin: 'Orange, CA'},
                   {name: 'Howard Shu', origin: 'Anaheim, CA'},
                   {name: 'Jamie Subandhi', origin: 'Westminster, CA'},
                   {name: 'Iris Wang', origin: 'Arcadia, CA'}];
-// console.log(randoBadminton);
-
+//archery athletes
 var archery = [{name: 'Mackenzie Brown', origin: 'Flint, TX'},
               {name: 'Brady Ellison', origin: 'Globe, AZ'},
               {name: 'Zach Garrett', origin: 'Wellington, MO'},
               {name: 'Jake Kaminski', origin: 'Gainesville, FL'}];
-
+//diving athletes
 var diving = [{name: 'David Boudia', origin: 'West Lafayette, IN'},
               {name: 'Kassidy Cook', origin: 'The Woodlands, TX'},
               {name: 'Amy Cozad', origin: 'Indianapolis, IN'},
@@ -32,7 +30,7 @@ var diving = [{name: 'David Boudia', origin: 'West Lafayette, IN'},
               {name: 'Abby Johnston', origin: 'Upper Arlington, OH'},
               {name: 'Jessica Parratto', origin: 'Bloomington, IN'},
               {name: 'Katrina Young', origin: 'Seattle, WA'}];
-
+//table tennis athletes
 var tableTennis = [{name: 'Yijun Feng', origin: 'Atlanta, GA'},
                   {name: 'Kanak Jhan', origin: 'Milpitas, CA'},
                   {name: 'Timothy Wang', origin: 'Houston, TX'},

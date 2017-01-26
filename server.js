@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.use('/', index);
 app.use('/olympics', olympics);
 
-
+//starting server and notifying that server is started as well as which port it is on
 var server = app.listen(process.env.PORT || 3000, function(){
   var port = server.address().port;
   console.log('Listening on port', port);
